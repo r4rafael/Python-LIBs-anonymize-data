@@ -5,37 +5,41 @@ No mundo atual da tomada de decisão baseada em dados, os modelos de aprendizado
 
 Identificando dados confidenciais
 
-Técnicas de anonimização de dados
-Bibliotecas Python para anonimização de dados
-Exemplos de código para anonimização de dados
+- Técnicas de anonimização de dados
+- Bibliotecas Python para anonimização de dados
+- Exemplos de código para anonimização de dados
 Conclusão
+
 Identificação de dados confidenciais Os dados confidenciais podem incluir informações de identificação pessoal (PII), informações financeiras, registros de saúde e outros tipos de dados. que podem ser vinculados a um indivíduo ou representar um risco à privacidade. Antes de começar a limpar seus dados, você deve:
 
 Identificar quais colunas ou campos de dados contêm informações confidenciais Compreender o contexto dos dados e seu potencial impacto na privacidade
 
-Técnicasde anonimização de dados Existem várias técnicas para anonimizar dados sensíveis, e a escolha do método depende do tipo e da sensibilidade dos dados, bem como do nível de privacidade desejado.
+Técnicas de anonimização de dados Existem várias técnicas para anonimizar dados sensíveis, e a escolha do método depende do tipo e da sensibilidade dos dados, bem como do nível de privacidade desejado.
 
 Alguns métodos comuns incluem:
 
-*Mascaramento de dados * O mascaramento de dados envolve a substituição de dados confidenciais por caracteres ou símbolos aleatórios. Esse método é útil para ofuscar informações baseadas em texto, como endereços de e-mail, nomes ou números de telefone.
+*Mascaramento de dados* O mascaramento de dados envolve a substituição de dados confidenciais por caracteres ou símbolos aleatórios. Esse método é útil para ofuscar informações baseadas em texto, como endereços de e-mail, nomes ou números de telefone.
 
-Pseudonimização A pseudonimização substitui dados sensíveis por identificadores artificiais ou pseudônimos. Esse método mantém a estrutura dos dados originais, garantindo que eles não possam ser diretamente vinculados a um indivíduo.
+*Pseudonimização* 
+A pseudonimização substitui dados sensíveis por identificadores artificiais ou pseudônimos. Esse método mantém a estrutura dos dados originais, garantindo que eles não possam ser diretamente vinculados a um indivíduo.
 
-Agregação A agregação combina pontos de dados individuais em grupos ou categorias, reduzindo a granularidade dos dados e dificultando a identificação de indivíduos específicos.
+*Agregação*
+A agregação combina pontos de dados individuais em grupos ou categorias, reduzindo a granularidade dos dados e dificultando a identificação de indivíduos específicos.
 
-Privacidade diferencial A privacidade diferencial é uma técnica mais avançada que adiciona ruído controlado aos dados, dificultando a identificação de indivíduos, preservando a utilidade geral do conjunto de dados para o treinamento do modelo de ML.
+*Privacidade diferencial*
+A privacidade diferencial é uma técnica mais avançada que adiciona ruído controlado aos dados, dificultando a identificação de indivíduos, preservando a utilidade geral do conjunto de dados para o treinamento do modelo de ML.
 
 Bibliotecas Python para anonimização de dados Várias bibliotecas Python podem ajudar na anonimização de dados.
 
 Alguns populares incluem:
 
-Faker: Uma biblioteca poderosa que gera dados falsos, como nomes, endereços e números de telefone.
+**Faker**: Uma biblioteca poderosa que gera dados falsos, como nomes, endereços e números de telefone.
 
-Pandas: Uma biblioteca de manipulação de dados amplamente utilizada que pode ser usada para aplicar várias técnicas de anonimização.
+**Pandas**: Uma biblioteca de manipulação de dados amplamente utilizada que pode ser usada para aplicar várias técnicas de anonimização.
 
-Numpy: Uma biblioteca de computação numérica que pode ser usada para gerar ruído aleatório para privacidade diferencial.
+**Numpy**: Uma biblioteca de computação numérica que pode ser usada para gerar ruído aleatório para privacidade diferencial.
 
-SDV: Uma biblioteca para geração de dados sintéticos, que permite criar um conjunto de dados totalmente novo com base no original, preservando suas propriedades estatísticas.
+**SDV**: Uma biblioteca para geração de dados sintéticos, que permite criar um conjunto de dados totalmente novo com base no original, preservando suas propriedades estatísticas.
 
 # Conclusão
 
